@@ -1,12 +1,12 @@
 module.exports = {
     "env": {
-        "browser": true,
+        // "browser": true,
         "node": true,
         "es6": true
     },
     "extends": [
         "eslint:recommended",
-        "plugin:vue/essential"
+        // "plugin:vue/essential"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -16,8 +16,8 @@ module.exports = {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": [
-        "vue"
-    ],
+    // "plugins": [
+    //     "vue"
+    // ],
     "rules": {}
 };
